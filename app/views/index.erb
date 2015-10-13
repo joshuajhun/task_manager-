@@ -1,5 +1,12 @@
-<h1>All Tasks</h1>
+<div class="text-center">
+  <div class ="jumbotron">
+<h1 class= "bg-primary">All Tasks</h1>
 
+<link href='css/bootstrap.css' rel='stylesheet'>
 <% @tasks.each do |task| %>
-  <h3><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
+  <h3 class= "well"><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <% end %>
+</div>
+</div>

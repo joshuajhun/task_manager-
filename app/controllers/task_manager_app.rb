@@ -1,5 +1,5 @@
 require 'models/task_manager'
-class TaskManagerApp < Sinatra::Base
+class TaskManagerApp < Sinatra::Base #set and other words are inhereted from sinatra. 
   set :root, File.expand_path("..", __dir__)
 
   get '/' do

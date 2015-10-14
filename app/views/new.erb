@@ -1,10 +1,20 @@
-<form action="/tasks" method="post">
-  <link href='css/bootstrap.css' rel='stylesheet'>
-  <input type='text' name='task[title]'/><br/>
+<!DOCTYPE html>
+<html lang="en">
+<h1 class="bg-primary"><img src="/check.png" alt="checklist" class="img-circle">Task Manager</h1></img>
+<head>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/application.css">
+  <title>My Sinatra Application</title>
+</head>
+<body>
+  <dive class= "text-center">
+  <div class="jumbotron">
+    <form class="container" action="/tasks" method="post">
+  <input type='text' name='task[title]'placeholder="task name"/><br/>
   <p>Enter a new task:</p>
-  <textarea name='task[description]'></textarea><br/>
+  <textarea name='task[description]' placeholder="task description"></textarea><br/>
   <input type='submit'/>
 </form>
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script src='js/bootstrap.js'></script>
+  </div>
+</body>
+</html>

@@ -1,11 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<h1 class="bg-primary"><img src="/check.png" alt="checklist" class="img-circle">Task Manager</h1></img>
 <head>
-<link href='css/bootstrap.css' rel='stylesheet'>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/application.css">
+  <title>My Sinatra Application</title>
 </head>
-<a href="/tasks">Task Index</a>
-<h1><%= @task.title %></h1>
-<p><%= @task.description %></p>
 <body>
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script src='js/bootstrap.js'></script>
-</bod>
+  <div class="jumbotron text-center">
+    <button type ="button" class = 'btn btn-info'><a href="/tasks">Task Index</button></a>
+
+    <h1 class= "text-center"><%= @task.title %></h1>
+
+    <p class = "text-center"><%= @task.description %></p>
+  </div>
+</body>
+</html>

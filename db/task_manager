@@ -1,12 +1,6 @@
 ---
 tasks:
-- id: 1
-  title: test
-  description: "test\r\n"
-- id: 2
-  title: 'Dinner with uncle dave '
-  description: take him to park burger.
-- id: 3
-  title: 'finish pre work '
-  description: finish task manager
-total: 3
+- id: 4
+  title: Finish Homework
+  description: "-____-"
+total: 4

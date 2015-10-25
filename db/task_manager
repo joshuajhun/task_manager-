@@ -1,6 +1,3 @@
 ---
-tasks:
-- id: 4
-  title: Finish Homework
-  description: "-____-"
-total: 4
+tasks: []
+total: 5

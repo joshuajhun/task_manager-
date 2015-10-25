@@ -4,3 +4,5 @@ gem 'sinatra', require: 'sinatra/base' #modular style of sinatra requires base
 gem 'shotgun' #it will always have your latest code it uses thin as a server
 gem 'minitest'
 gem 'bundle'
+gem 'capybara'
+gem 'launchy'
